@@ -2,10 +2,8 @@ package com.soloworld.blog.controller;
 
 import com.soloworld.blog.dto.PostInput;
 import com.soloworld.blog.dto.PostResponse;
-import com.soloworld.blog.entity.Post;
 import com.soloworld.blog.service.BlogService;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
